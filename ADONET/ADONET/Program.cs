@@ -6,17 +6,29 @@ namespace ADONET
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static int GetListEmployee()
         {
+            ICollection<UserDTO> list = null;
             using (DatabaseAccess dba = new DatabaseAccess())
             {
                 DataTable dataTable = dba.GetData("TEST_GetEmployeeList");
-                IEnumerable<UserDTO> list = EntityHelper<UserDTO>.GetListObject(dataTable);
+                list = EntityHelper<UserDTO>.GetListObject(dataTable);
                 foreach (UserDTO obj in list)
                 {
                     Console.WriteLine(obj.USER_ID);
                 }
             }
+
+            return list.Count;
+        }
+
+        
+        private static void Main(string[] args)
+        {
+
+            GetListEmployee();
+
+
             Console.Read();
         }
     }
