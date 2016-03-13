@@ -1,1 +1,7 @@
 c:\users\docvominh\documents\visual studio 2013\Projects\ADONET\ADONET\bin\Debug\ADONET.exe.config
+D:\1.Work\GitHub\ADONET-BEST-PRACTICE\ADONET\ADONET\bin\Debug\ADONET.exe.config
+D:\1.Work\GitHub\ADONET-BEST-PRACTICE\ADONET\ADONET\bin\Debug\ADONET.exe
+D:\1.Work\GitHub\ADONET-BEST-PRACTICE\ADONET\ADONET\bin\Debug\ADONET.pdb
+D:\1.Work\GitHub\ADONET-BEST-PRACTICE\ADONET\ADONET\obj\Debug\ADONET.exe
+D:\1.Work\GitHub\ADONET-BEST-PRACTICE\ADONET\ADONET\obj\Debug\ADONET.pdb
+D:\1.Work\GitHub\ADONET-BEST-PRACTICE\ADONET\ADONET\obj\Debug\ADONET.csprojResolveAssemblyReference.cache
